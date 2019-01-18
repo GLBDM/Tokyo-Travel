@@ -25,26 +25,27 @@ a {
 
     width: 1550px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 10px;
+    background-color: #191818;
 }
 
 #logo {
 
     width: 325px;
     height: auto;
-    padding-top: 45px;
+    padding-top: 0 5px;
 }
 
 header nav {
 
     float: right;
-    padding-top: 105px;
+    padding-top: 50px;
     margin-right: 135px;
 }
 
 header nav ul li {
 
-    margin-top: 25px;
+    margin-top: 35px;
     float: left;
     display: inline-block;
 }
@@ -56,6 +57,7 @@ header nav ul li a {
     margin-right: 45px;
     font-family: 'Lobster', cursive;
     font-size: 17px;
+    color: #EEE;
 }
 
 header nav ul li a:hover {
