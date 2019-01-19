@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+html,body{
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
 body {
 
     font-family: Arial, sans-serif;
@@ -61,3 +67,66 @@ header nav ul li a:hover {
 
     color: #BB002D;
 }
+
+
+
+
+/* NO SCROLL */
+
+.no-scroll {
+    clear: left;
+    float: right;
+    margin-top: auto;
+    margin-left: auto;
+    padding-bottom: 100%;
+    width: 603px;
+    background-color: #BB002D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
