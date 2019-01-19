@@ -69,17 +69,31 @@ header nav ul li a:hover {
 }
 
 
+/* SCROLL */
 
+.scroll
+
+{
+    float: left;
+    position: relative;
+    max-width: 1250px;
+    padding: 37px;
+    overflow: scroll;
+    display: block;
+    height: 500px;
+    
+}
 
 /* NO SCROLL */
 
 .no-scroll {
-    clear: left;
+    position:fixed;
     float: right;
     margin-top: auto;
-    margin-left: auto;
+    margin-left: 69%;
     padding-bottom: 100%;
-    width: 603px;
+    width: 100%;
+    height: auto;
     background-color: #BB002D;
 }
 
