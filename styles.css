@@ -16,6 +16,7 @@ body {
 
     font-family: Arial, sans-serif;
     font-size: 15px;
+    overflow:hidden;
 }
 
 a {
@@ -77,10 +78,11 @@ header nav ul li a:hover {
 /* SCROLL */
 
 .scroll {
-    z-index: 70;
+    
     float: left;
     position: relative;
-    max-width: 1250px;
+    max-width: 1190px;
+    top: 193px;
     padding: 37px;
     overflow-y: scroll;
     display: block;
@@ -105,15 +107,15 @@ header nav ul li a:hover {
 
 /* NO SCROLL */
 
-
-
 .no-scroll {
-    top: 193px;
+    
+    top: 0px;
     z-index: 80;
     right: 0px;
     position: absolute;
-    width: 30%;
-    height: 80%;
+    width: 34%;
+    height: 100%;
+    padding-top: 200px;
+    display: inline-block;
     background-color: #BB002D;
-    border-bottom: 1px solid #BB002D;
 }
