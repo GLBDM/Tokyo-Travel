@@ -78,10 +78,25 @@ header nav ul li a:hover {
     position: relative;
     max-width: 1250px;
     padding: 37px;
-    overflow: scroll;
+    overflow-y: scroll;
     display: block;
-    height: 500px;
+    height: 700px;
     
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #161515; 
 }
 
 /* NO SCROLL */
@@ -96,7 +111,6 @@ header nav ul li a:hover {
     height: auto;
     background-color: #BB002D;
 }
-
 
 
 
