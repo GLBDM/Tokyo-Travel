@@ -5,10 +5,11 @@
     padding: 0;
 }
 
-html,body{
-  height:100%;
-  margin:0;
-  padding:0;
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -28,8 +29,12 @@ a {
 
 .wrapper {
 
-    width: auto;
+    position: fixed;
+    width: 100%;
     background-color: #191818;
+    z-index: 99;
+    top: 0px;
+    display: inline-block;
 }
 
 #logo {
@@ -71,9 +76,8 @@ header nav ul li a:hover {
 
 /* SCROLL */
 
-.scroll
-
-{
+.scroll {
+    z-index: 70;
     float: left;
     position: relative;
     max-width: 1250px;
@@ -81,80 +85,35 @@ header nav ul li a:hover {
     overflow-y: scroll;
     display: block;
     height: 700px;
-    
+
 }
 
 /* width */
 ::-webkit-scrollbar {
-  width: 11px;
+    width: 11px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+    background: #f1f1f1;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #161515; 
+    background: #161515;
 }
 
 /* NO SCROLL */
 
+
+
 .no-scroll {
-    position:fixed;
-    float: right;
-    margin-top: auto;
-    margin-left: 69%;
-    padding-bottom: 100%;
-    width: 100%;
-    height: auto;
+    top: 193px;
+    z-index: 80;
+    right: 0px;
+    position: absolute;
+    width: 30%;
+    height: 80%;
     background-color: #BB002D;
+    border-bottom: 1px solid #BB002D;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
