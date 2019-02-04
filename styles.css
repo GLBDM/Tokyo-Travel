@@ -104,6 +104,30 @@ header nav ul li a:hover {
     background: #161515;
 }
 
+#img1 {
+    margin-left: 250px;
+    border-radius: 5px;
+}
+
+#img2 {
+    margin-left: 250px;
+    border-radius: 5px;
+}
+
+#img3 {
+    margin-left: 250px;
+    border-radius: 5px;
+}
+
+#img4 {
+    margin-left: 250px;
+    border-radius: 5px;
+}
+
+p {
+    text-align: justify;
+    
+}
 
 /* NO SCROLL */
 
@@ -111,8 +135,36 @@ header nav ul li a:hover {
     
     background-color: #BB002D;
     margin-left: 69%;
-    padding-bottom: 100%
-
+    height: 100%;
+    padding: 10px;
     
 }
 
+.no-scroll p {
+    
+    width: 577px;
+    color: #eee;
+}
+ .no-scroll h1 {
+    
+    color: #eee;
+}
+
+#content1 {
+    margin-bottom: 50px;
+}
+
+#content2 {
+    margin-bottom: 50px;
+}
+
+#content3 {
+    
+    margin-bottom: 70px
+}
+
+#content4 img {
+    margin-right: 35px;
+    width: 50px;
+    margin-bottom: 100%;
+}
